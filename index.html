@@ -9,20 +9,40 @@
       content="WebStudio - efektywne rozwiązania dla Waszego biznesu."
     />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        --primary-text-color: #212121;
+        color: var(--primary-text-color);
+      }
+    </style>
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html">WebStudio</a>
-        <ul>
-          <li><a href="#agencja">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+        <a class="brand-name" href="index.html"
+          ><span class="brand-name-color">Web</span>Studio</a
+        >
+        <ul class="navigation">
+          <li><a class="link" href="index.html">Agencja</a></li>
+          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="link" href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="contact">
+        <li>
+          <a class="link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a class="link" href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
     <main>

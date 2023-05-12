@@ -1,0 +1,45 @@
+:root {
+  --secondary-text-color: #757575;
+  --button-background-color: #f5f4fa;
+  --active-color: #2196f3;
+}
+
+a {
+  text-decoration: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+
+.brand-name {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.brand-name-color {
+  color: var(--active-color);
+}
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--active-color);
+}
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  list-style-type: none;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--active-color);
+}
